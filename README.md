@@ -2,6 +2,8 @@
 An introductory project for trying out react-redux by implementing a simple counter. 
 
 💛 Hosted on Github Pages: https://yuelchen.github.io/react-redux-counter/
+## Preview:
+![Counter Preview](https://github.com/yuelchen/react-redux-counter/blob/main/public/preview.png)
 
 ---
 ## Command Line Reference
