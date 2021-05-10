@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from './actions.js';
+import { increment, decrement, set } from './actions.js';
 import './counter.css'
 
 function CounterContainer() {
@@ -17,6 +17,7 @@ function CounterContainer() {
                 <div className="div-counter-buttons">
                     <button onClick={() => dispatch(decrement(5))}>-5</button>
                     <button onClick={() => dispatch(decrement(1))}>-1</button>
+                    <button onClick={() => dispatch(set(0))}>Reset</button>
                     <button onClick={() => dispatch(increment(1))}>+1</button>
                     <button onClick={() => dispatch(increment(5))}>+5</button>
                 </div>

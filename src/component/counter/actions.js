@@ -11,3 +11,10 @@ export const decrement = (val) => {
         payload: val
     }
 };
+
+export const set = (val) => {
+    return {
+        type: 'SET',
+        payload: val
+    }
+};
